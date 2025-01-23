@@ -3,3 +3,6 @@ bios dump of the optiplex 7010 sff
 
 dumped using
 `sudo flashprog -p internal:laptop=force_I_want_a_brick,boardmismatch=force -r dump.bin`
+
+flash with 
+`sudo flashprog -p internal:laptop=force_I_want_a_brick,boardmismatch=force -w dump.bin`
